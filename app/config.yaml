@@ -1,0 +1,27 @@
+api:
+  football: "8e5d0996b415e20688a42b87011a2511"
+
+contract:
+  address: "0xDA0bab807633f07f013f94DD0E6A4F96F8742B53"
+  private_key: "SUA_CHAVE_PRIVADA"
+  your_address: "SEU_ENDERECO_ETH"
+  abi: 
+    # Insira o conteúdo do ABI aqui, que é uma lista de objetos JSON
+    - {
+        "constant": true,
+        "inputs": [...],
+        "name": "setRoundResult",
+        "outputs": [...],
+        "payable": false,
+        "stateMutability": "nonpayable",
+        "type": "function"
+      }
+  web3_provider: "https://data-seed-prebsc-1-s1.binance.org:8545/"
+
+users:
+  admin: "admin123"
+  usuario: "senha123"
+
+
+
+  
